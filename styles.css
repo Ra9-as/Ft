@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1596492574315-4bcf1b34e9cb'); /* صورة تمثل اللحوم البقريّة */
+    background-size: cover;
+    margin: 0;
+    padding: 50px;
+    color: #333; /* لون النص */
+}
+
+.container {
+    max-width: 400px; 
+    margin: auto;      
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6b3e3e; /* لون مناسب لمتجر اللحوم */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 12px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #b22222; /* تغيير لون الحدود عند التركيز */
+    outline: none;
+}
+
+.submit-button {
+    background-color: #6b3e3e; /* لون الزر */
+    color: white;
+    padding: 12px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #5a3232; /* لون أغمق عند التمرير */
+}
+
+.submit-button:active {
+    background-color: #4d2828; /* لون عند الضغط */
+}
